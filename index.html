@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep-Note</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg">
+        <h2><i class="far fa-sticky-note"></i> KEEP NOTES</h2>
+    </header>
+
+    <button onclick="getNote()" class="note-btn">ADD NOTES <i class="fas fa-long-arrow-alt-right"></i></button>
+
+    <main>
+        <div id="notes">
+
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
